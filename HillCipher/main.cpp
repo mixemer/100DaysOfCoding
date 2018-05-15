@@ -7,10 +7,6 @@
 //
 
 #include <iostream>
-#include <string>
-#include <vector>
-#include <array>
-#include <stdexcept>
 #include "HillCipher.hpp"
 using namespace std;
 
