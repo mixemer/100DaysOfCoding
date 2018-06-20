@@ -1,0 +1,161 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='WolframDesktop 11.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       161,          7]
+NotebookDataLength[      5836,        151]
+NotebookOptionsPosition[      5405,        134]
+NotebookOutlinePosition[      5757,        150]
+CellTagsIndexPosition[      5714,        147]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Manipulate", "[", 
+  RowBox[{
+   RowBox[{"Graphics3D", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"Style", "[", 
+       RowBox[{
+        RowBox[{"Sphere", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"x", ",", "y", ",", "z"}], "}"}], ",", "r"}], "]"}], ",", 
+        RowBox[{"RGBColor", "[", 
+         RowBox[{"red", ",", "green", ",", " ", "blue"}], "]"}], ",", 
+        RowBox[{"Opacity", "[", "opacity", "]"}]}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", "number"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"y", ",", "number"}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"z", ",", "number"}], "}"}]}], "]"}], "]"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"number", ",", "2", ",", "5"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"opacity", ",", "1", ",", "0.1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"red", ",", "1", ",", "0"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"green", ",", "0", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"blue", ",", "0", ",", "1"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"r", ",", 
+     RowBox[{"1", "/", "2"}], ",", 
+     RowBox[{"number", "*", "10"}]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.7384490199314404`*^9, 3.7384491664096527`*^9}},
+ CellLabel->"In[94]:=",ExpressionUUID->"7ae5e967-6ccd-4d15-8dd8-08f0826d0f8d"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`blue$$ = 
+    0.11800000000000001`, $CellContext`green$$ = 
+    0.562, $CellContext`number$$ = 2, $CellContext`opacity$$ = 
+    1, $CellContext`r$$ = 0.5, $CellContext`red$$ = 1., Typeset`show$$ = True,
+     Typeset`bookmarkList$$ = {}, Typeset`bookmarkMode$$ = "Menu", 
+    Typeset`animator$$, Typeset`animvar$$ = 1, Typeset`name$$ = 
+    "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`number$$], 2, 5}, {
+      Hold[$CellContext`opacity$$], 1, 0.1}, {
+      Hold[$CellContext`red$$], 1, 0}, {
+      Hold[$CellContext`green$$], 0, 1}, {
+      Hold[$CellContext`blue$$], 0, 1}, {
+      Hold[$CellContext`r$$], 
+      Rational[1, 2], 
+      Dynamic[$CellContext`number$$ 10]}}, Typeset`size$$ = {
+    360., {193., 198.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`number$16011$$ = 
+    0, $CellContext`opacity$16012$$ = 0, $CellContext`red$16013$$ = 
+    0, $CellContext`green$16014$$ = 0, $CellContext`blue$16015$$ = 
+    0, $CellContext`r$16016$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`blue$$ = 0, $CellContext`green$$ = 
+        0, $CellContext`number$$ = 2, $CellContext`opacity$$ = 
+        1, $CellContext`r$$ = Rational[1, 2], $CellContext`red$$ = 1}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`number$$, $CellContext`number$16011$$, 0], 
+        Hold[$CellContext`opacity$$, $CellContext`opacity$16012$$, 0], 
+        Hold[$CellContext`red$$, $CellContext`red$16013$$, 0], 
+        Hold[$CellContext`green$$, $CellContext`green$16014$$, 0], 
+        Hold[$CellContext`blue$$, $CellContext`blue$16015$$, 0], 
+        Hold[$CellContext`r$$, $CellContext`r$16016$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Graphics3D[
+        Table[
+         Style[
+          
+          Sphere[{$CellContext`x, $CellContext`y, $CellContext`z}, \
+$CellContext`r$$], 
+          
+          RGBColor[$CellContext`red$$, $CellContext`green$$, \
+$CellContext`blue$$], 
+          
+          Opacity[$CellContext`opacity$$]], {$CellContext`x, \
+$CellContext`number$$}, {$CellContext`y, $CellContext`number$$}, \
+{$CellContext`z, $CellContext`number$$}]], 
+      "Specifications" :> {{$CellContext`number$$, 2, 
+         5}, {$CellContext`opacity$$, 1, 0.1}, {$CellContext`red$$, 1, 
+         0}, {$CellContext`green$$, 0, 1}, {$CellContext`blue$$, 0, 
+         1}, {$CellContext`r$$, 
+         Rational[1, 2], 
+         Dynamic[$CellContext`number$$ 10]}}, "Options" :> {}, 
+      "DefaultOptions" :> {}],
+     ImageSizeCache->{405., {308., 314.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{{3.738449154979085*^9, 3.738449167207162*^9}},
+ CellLabel->"Out[94]=",ExpressionUUID->"f6beba4e-5a8b-4b58-a56c-a13f8414da6a"]
+}, Open  ]]
+},
+WindowSize->{720, 855},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"11.3 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 7, \
+2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[583, 22, 1374, 36, 136, "Input",ExpressionUUID->"7ae5e967-6ccd-4d15-8dd8-08f0826d0f8d"],
+Cell[1960, 60, 3429, 71, 641, "Output",ExpressionUUID->"f6beba4e-5a8b-4b58-a56c-a13f8414da6a"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
